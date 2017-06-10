@@ -7,5 +7,8 @@
             "email": "osvabnaston@gmail.com"
         }
     ],
+    "config": {
+        "vendor-dir": "Repositorio"
+    },
     "require": {}
 }
