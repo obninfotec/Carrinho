@@ -1,6 +1,6 @@
 {
     "name": "obn2000/estudos-com-objeto-carrinho",
-    "description": null,
+    "description": "Projeto de testes com carrinho usando PDO",
     "authors": [
         {
             "name": "Osvaldo Bodo",
