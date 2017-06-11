@@ -12,7 +12,10 @@ class View {
     }
 
     public function Set($Key, $Value) {
-        $this->Data[$Key] = $Value;
+        $Dados = $this->Data[$Key] = $Value;
+	echo '<pre>Dados:';
+	print_r($Dados);
+	echo '</pre>';
     }
 
     public function Render($File) {
