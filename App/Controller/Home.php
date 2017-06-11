@@ -17,7 +17,7 @@ class Home extends Controller {
     public function Index() {
         //echo 'Olá Mundo - Home';
         $this->View->set('Products', $this->Product->getProducts());
-        $this->View->Render("Home");
+	$this->View->Render("Home");
     }
 
 }
